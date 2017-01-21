@@ -1,0 +1,120 @@
+##########
+# Colors #
+##########
+
+rounded = 0                                                                   
+border_width = 0
+background_color = #2F343F 100
+background_color_hover = #FFFFFF 10
+border_color = #2F343F 100
+
+rounded = 0
+border_width = 0
+background_color = #2F343F 100
+background_color_hover = #FFFFFF 10
+border_color = #2F343F 6
+
+rounded = 0
+border_width = 0
+background_color = #5294e2 100
+background_color_hover = #6ba4e7 100
+border_color = #5294e2 20
+ 
+rounded = 0
+border_width = 0
+background_color = #2F343F 100
+background_color_hover = #FFFFFFF 10
+border_color = #2F343F 100
+
+#########
+# Panel #
+#########
+
+panel_items = TSC
+panel_monitor = all
+panel_position = bottom center horizontal
+panel_size = 100% 25
+panel_margin = 0 0
+panel_padding = 0 0 0
+font_shadow = 0
+panel_background_id = 4
+wm_menu = 1
+autohide = 0
+autohide_show_timeout = 0.3 
+autohide_hide_timeout = 0.1
+autohide_height = 2 
+mouse_hover_icon_asb = 100 0 10
+mouse_pressed_icon_asb = 100 0 0
+
+###########
+# Taskbar #
+###########
+
+taskbar_mode = multi_desktop
+taskbar_padding = 0 0 0
+taskbar_background_id = 1
+task_icon = 1
+task_iconified_font_color = #ffffff 100
+task_active_icon_asb = 100 0 0
+task_urgent_icon_asb = 100 0 0
+task_iconified_icon_asb = 100 0 0
+task_iconified_background_id = 0
+task_text = 1
+task_width = 140
+task_centered = 104417B
+task_padding = 4 4
+task_font = Droid Sans 10
+task_font_color = #C7CCD1 100
+task_active_font_color = #F3F4F5 100
+task_background_id = 2
+task_active_background_id = 3
+
+###############
+# System Tray #
+###############
+
+systray = 1
+systray_padding = 0 4 5
+systray_sort = ascending
+systray_background_id = 0
+systray_icon_asb = 50 0 70
+
+#########
+# Clock #
+#########
+
+time1_format = %a %d %b  %H:%M
+time1_font = Droid Sans 10
+clock_font_color = #C7CCD1 100
+clock_padding = 10 0
+clock_background_id = 4
+
+###########
+# Tooltip #
+###########
+
+tooltip_background_id = 4
+tooltip_font_color = #7A808F 100
+tooltip_font =  Droid Sans 10
+
+#########
+# Mouse #
+#########
+
+mouse_middle = close
+mouse_right = none
+mouse_scroll_up = prev_task
+mouse_scroll_down = next_task
+mouse_effects = 1
+
+############
+# Launcher #
+############
+
+launcher_icon_theme = Numix
+launcher_padding = 2 2
+launcher_background_id = 1
+launcher_icon_size = 40
+launcher_item_app = /usr/share/applications/chromium.desktop
+launcher_item_app = /usr/share/applications/Thunar.desktop
+launcher_item_app = /usr/share/applications/urxvt.desktop

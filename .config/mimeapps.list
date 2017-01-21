@@ -1,0 +1,32 @@
+[Added Associations]
+image/jpeg=feh.desktop;
+application/pdf=libreoffice-draw.desktop;evince.desktop;
+application/x-matroska=gnome-mplayer;
+application/x-bittorrent=transmission-gtk.desktop;
+video/x-matroska=gnome-mplayer.desktop;mplayer.desktop;io.github.GnomeMpv.desktop;mpv.desktop;gnome-mplayer;
+video/mp4=gnome-mplayer.desktop;mplayer.desktop;mpv.desktop;io.github.GnomeMpv.desktop;gnome-mpv;
+application/postscript=evince.desktop;
+application/x-php=visual-studio-code.desktop;
+image/png=feh.desktop;
+text/css=libreoffice-writer.desktop;
+text/html=libreoffice-writer.desktop;chromium.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-FT2YMY.desktop;userapp-Thunderbird-PNO2SY.desktop;
+message/rfc822=userapp-Thunderbird-FT2YMY.desktop;userapp-Thunderbird-PNO2SY.desktop;
+image/svg+xml=chromium.desktop;
+application/json=libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
+image/gif=chromium.desktop;feh.desktop;wine-extension-gif.desktop;
+audio/mpeg=audacity.desktop;io.github.GnomeMpv.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+application/x-kdenlive=org.kde.kdenlive.desktop;
+text/plain=libreoffice-writer.desktop;
+audio/x-wav=io.github.GnomeMpv.desktop;
+application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop;
+application/vnd.openofficeorg.extension=libreoffice-startcenter.desktop;
+
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-PNO2SY.desktop
+message/rfc822=userapp-Thunderbird-PNO2SY.desktop
+application/x-php=visual-studio-code.desktop
+image/gif=chromium.desktop

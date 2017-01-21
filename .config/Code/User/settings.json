@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.insertSpaces": true,
+    "editor.mouseWheelScrollSensitivity": 1.5,
+    "extensions.autoUpdate": true,
+    "eslint.validate": [
+        "javascript"
+    ],
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.bracketSpacing": true,
+    "window.zoomLevel": 0,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "stylelint.enable": true,
+    "css.validate": false
+}

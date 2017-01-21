@@ -1,0 +1,72 @@
+! colors
+*.foreground:  #bec7d5
+*.background:  #383C4A
+*.cursorColor: #bec7d5
+
+! black
+*color0: #343942
+*color8: #585858
+
+! red
+*color1: #aa8d57
+*color9: #dcb670
+
+! green
+*color2:  #ab9e7f
+*color10: #ddcca4
+
+! yellow
+*color3:  #a4a8a2
+*color11: #d4dad2
+
+! blue
+*color4:  #5294e2
+*color12: #72b0db
+
+! magenta
+*color5:  #8a89aa
+*color13: #b2b1dc
+
+! cyan
+*color6:  #859ca9
+*color14: #accadb
+
+! white
+*color7:  #d9d9d9
+*color15: #ffffff
+
+! Xft font configuration
+Xft.autohint:  0
+Xft.lcdfilter: lcddefault
+Xft.hinting:   true
+Xft.hintstyle: hintslight
+Xft.antialias: 1
+Xft.rgba:      rgb
+Xft.dpi:       96
+
+! Urxvt settings
+URxvt.intensityStyles:     false
+URxvt.scrollBar:           false
+URxvt.cursorBlink:         true
+URxvt.font:                xft:Inconsolata for Powerline:pixelsize=17:antialias=true:hinting=true, xft:DejaVu Sans Mono for Powerline:pixelsize=17:antialias=false:hinting:true
+URxvt.internalBorder:      8
+URxvt.letterSpace:         -1
+URxvt.perl-ext-common:     default,matcher
+URxvt.url-select.launcher: /usr/bin/chromium
+URxvt.matcher.button:      1
+URxvt.matcher.pattern.1:   \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+URxvt.matcher.pattern.2:   \\B(/\\S+?):(\\d+)(?=:|$)
+
+! Rofi settings
+rofi.font:            Inconsolata for Powerline 13
+rofi.color-enabled:   true
+rofi.color-window:    #383C4A, #2F343F, #5294E2
+rofi.color-normal:    #383C4A, #BEC7D5, #383C4A, #5294E2, #BEC7D5
+rofi.color-urgent:    #383C4A, #BEC7D5, #383C4A, #5294E2, #BEC7D5
+rofi.color-active:    #383C4A, #BEC7D5, #383C4A, #5294E2, #BEC7D5
+rofi.separator-style: none
+rofi.terminal:        urxvtc
+rofi.location:	      0
+rofi.bw:              2 
+rofi.padding:         0
+rofi.lines:           4

@@ -1,0 +1,12 @@
+
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+tint2 &
+compton --vsync opengl --unredir-if-possible &
+dunst &
+sh /home/chris/.config/scripts/wallpaper.sh
+redshift &
+volumeicon &
