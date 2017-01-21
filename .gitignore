@@ -1,0 +1,43 @@
+# Whitelist
+
+# Ignore
+/*
+
+# Whitelisted Files
+!.gitignore
+!.gtkrc-2.0
+!.inputrc
+!.vimrc
+!.xinitrc
+!.Xresources
+!.zprofile
+!.zshrc
+!.zshenv
+
+!/.config/
+/.config/*
+!/.config/compton.conf
+!/.config/mimeapps.list
+!/.config/redshift.conf
+!/.config/user-dirs.dirs
+
+!/.config/Code/
+/.config/Code/*
+!/.config/Code/User/
+/.config/Code/User/*
+!/.config/Code/User/settings.json
+
+!/.config/deluge/
+/.config/deluge/*
+!/.config/deluge/core.conf
+
+# Whitelisted Folders
+
+!/.themes/
+!/.screenlayout/
+
+!/.config/dunst/
+!/.config/openbox/
+!/.config/scripts/
+!/.config/tint2/
+!/.config/volumeicon/
