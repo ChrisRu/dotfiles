@@ -10,6 +10,7 @@
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
     "prettier.bracketSpacing": true,
+    "prettier.printWidth": 120,
     "window.zoomLevel": 0,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,

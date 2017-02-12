@@ -88,6 +88,7 @@ time1_font = Droid Sans 10
 clock_font_color = #C7CCD1 100
 clock_padding = 10 0
 clock_background_id = 4
+clock_lclick_command = zenity --calendar --text ""
 
 ###########
 # Tooltip #

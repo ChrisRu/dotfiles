@@ -38,4 +38,8 @@ sh /home/chris/.screenlayout/default.sh
 udiskie --use-udisks2 &
 
 pulseaudio --start
+mpd
+
+#exec awesome
+#exec bspwm
 exec openbox-session

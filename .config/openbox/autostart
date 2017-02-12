@@ -5,8 +5,7 @@
 #
 
 tint2 &
-compton --vsync opengl --unredir-if-possible &
+compton --unredir-if-possible &
 dunst &
 sh /home/chris/.config/scripts/wallpaper.sh
-redshift &
 volumeicon &

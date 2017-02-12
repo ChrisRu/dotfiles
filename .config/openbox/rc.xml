@@ -233,17 +233,17 @@
     <!-- Keybindins for audio -->
     <keybind key="XF86AudioPlay">
       <action name="Execute">
-        <command>cmus-remote -u</command>
+		<command>/usr/local/bin/mpc toggle</command>
       </action>
     </keybind>
     <keybind key="XF86AudioNext">
       <action name="Execute">
-        <command>cmus-remote -n</command>
+		<command>/usr/local/bin/mpc next</command>
       </action>
     </keybind>
     <keybind key="XF86AudioPrev">
       <action name="Execute">
-        <command>cmus-remote -r</command>
+        <command>/usr/local/bin/mpc prev</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
