@@ -1,9 +1,3 @@
-! Arcbox
-! https://github.com/gcavallo/arcbox/
-
-! Copyright (c) 2015, Gabriel Cavallo
-! GPLv3 https://www.gnu.org/licenses/gpl.txt
-
 !! Window title
 window.label.text.justify: left
 window.active.label.bg: parentrelative
