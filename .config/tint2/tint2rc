@@ -4,7 +4,7 @@
 
 rounded = 0                                                                   
 border_width = 0
-background_color = #1F1F1F 30
+background_color = #1F1F1F 50
 background_color_hover = #FFFFFF 10
 border_color = #1F1F1F 100
 
