@@ -4,27 +4,15 @@
 
 rounded = 0                                                                   
 border_width = 0
-background_color = #2F343F 100
+background_color = #1F1F1F 30
 background_color_hover = #FFFFFF 10
-border_color = #2F343F 100
+border_color = #1F1F1F 100
 
 rounded = 0
 border_width = 0
-background_color = #2F343F 100
-background_color_hover = #FFFFFF 10
-border_color = #2F343F 6
-
-rounded = 0
-border_width = 0
-background_color = #5294e2 100
+background_color = #066DC1 100
 background_color_hover = #6ba4e7 100
-border_color = #5294e2 20
- 
-rounded = 0
-border_width = 0
-background_color = #2F343F 100
-background_color_hover = #FFFFFFF 10
-border_color = #2F343F 100
+border_color = #066DC1 20
 
 #########
 # Panel #
@@ -36,8 +24,10 @@ panel_position = bottom center horizontal
 panel_size = 100% 25
 panel_margin = 0 0
 panel_padding = 0 0 0
+panel_layer = top
+strut_policy = follow_size
 font_shadow = 0
-panel_background_id = 4
+panel_background_id = 1
 wm_menu = 1
 autohide = 0
 autohide_show_timeout = 0.3 
@@ -52,7 +42,7 @@ mouse_pressed_icon_asb = 100 0 0
 
 taskbar_mode = multi_desktop
 taskbar_padding = 0 0 0
-taskbar_background_id = 1
+taskbar_background_id = 0
 task_icon = 1
 task_iconified_font_color = #ffffff 100
 task_active_icon_asb = 100 0 0
@@ -63,11 +53,11 @@ task_text = 1
 task_width = 140
 task_centered = 104417B
 task_padding = 4 4
-task_font = Droid Sans 10
+task_font = Noto Sans 10
 task_font_color = #C7CCD1 100
 task_active_font_color = #F3F4F5 100
-task_background_id = 2
-task_active_background_id = 3
+task_background_id = 1
+task_active_background_id = 1
 
 ###############
 # System Tray #
@@ -83,20 +73,19 @@ systray_icon_asb = 50 0 70
 # Clock #
 #########
 
-time1_format = %a %d %b  %H:%M
-time1_font = Droid Sans 10
+time1_format = %a %d %b %H:%M
+time1_font = Noto Sans 10
 clock_font_color = #C7CCD1 100
 clock_padding = 10 0
-clock_background_id = 4
-clock_lclick_command = zenity --calendar --text ""
+clock_background_id = 0
 
 ###########
 # Tooltip #
 ###########
 
-tooltip_background_id = 4
+tooltip_background_id = 1
 tooltip_font_color = #7A808F 100
-tooltip_font =  Droid Sans 10
+tooltip_font =  Noto Sans 10
 
 #########
 # Mouse #

@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc-Darker</name>
+    <name>Arcbox</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -57,37 +57,37 @@
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Droid Sans</name>
+      <name>Noto Sans</name>
       <size>10</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>Droid Sans</name>
+      <name>Noto Sans</name>
       <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
-      <name>Droid Sans</name>
+      <name>Noto Sans</name>
       <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>Droid Sans</name>
+      <name>Noto Sans</name>
       <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Droid Sans</name>
+      <name>Noto Sans</name>
       <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Droid Sans</name>
+      <name>Noto Sans</name>
       <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
@@ -233,12 +233,12 @@
     <!-- Keybindins for audio -->
     <keybind key="XF86AudioPlay">
       <action name="Execute">
-		<command>/usr/local/bin/mpc toggle</command>
+        <command>/usr/local/bin/mpc toggle</command>
       </action>
     </keybind>
     <keybind key="XF86AudioNext">
       <action name="Execute">
-		<command>/usr/local/bin/mpc next</command>
+        <command>/usr/local/bin/mpc next</command>
       </action>
     </keybind>
     <keybind key="XF86AudioPrev">
