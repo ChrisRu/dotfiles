@@ -115,15 +115,12 @@ man() {
 	fi
 }
 
-alias ls='ls --color=auto --group-directories-first'
-alias update='sudo pacman -Syu && pacaur -Syu'
 function cd {
-	builtin cd "$@" && ls --color=auto --group-directories-first
+	builtin cd "$@" && ls --color=auto --group-directories-first -GF
 }
 
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/nvm/init-nvm.sh
 
 # NPM Completion
 if type complete &>/dev/null; then
@@ -175,12 +172,8 @@ elif type compctl &>/dev/null; then
 	compctl -K _npm_completion npm
 fi
 
-
+alias ls="ls -hGF --color=auto --group-directories-first"
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
-alias less="less -R"i
-if command -V dircolors >/dev/null 2>&1; then
-	eval "$(dircolors -b)"
-	alias ls="ls --color=auto --group-directories-first"
-fi
+alias less="less -R"
