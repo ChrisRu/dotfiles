@@ -5,6 +5,7 @@
 #
 
 tint2 &
+redshift-gtk &
 compton --unredir-if-possible &
 dunst &
 sh /home/chris/.config/scripts/wallpaper.sh
