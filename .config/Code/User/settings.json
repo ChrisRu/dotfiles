@@ -1,19 +1,24 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.insertSpaces": true,
+    "editor.insertSpaces": false,
     "editor.mouseWheelScrollSensitivity": 1.5,
+    "editor.multiCursorModifier": "ctrlCmd",
     "extensions.autoUpdate": true,
-    "eslint.validate": [
-        "javascript"
-    ],
+    "editor.fontLigatures": true,
+    "editor.renderIndentGuides": true,
     "typescript.disableAutomaticTypeAcquisition": true,
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
     "prettier.bracketSpacing": true,
     "prettier.printWidth": 120,
+    "prettier.eslintIntegration": true,
     "window.zoomLevel": 0,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "stylelint.enable": true,
-    "css.validate": false
+    "css.validate": false,
+    "window.menuBarVisibility": "toggle",
+	"workbench.welcome.enabled": false,
+    "workbench.colorTheme": "One Dark Pro",
+	"workbench.iconTheme": "material-icon-theme"
 }
