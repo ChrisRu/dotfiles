@@ -38,7 +38,8 @@ sh /home/chris/.screenlayout/default.sh
 udiskie --use-udisks2 &
 
 pulseaudio --start
-mpd
+mpd &
+urxvtd &
 
 #exec awesome
 #exec bspwm
