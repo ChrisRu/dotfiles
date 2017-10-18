@@ -1,0 +1,32 @@
+auto close tag
+auto rename tag
+babel es6/es7
+beautify
+debugger for chrome
+docker
+editorconfig for vscode
+elm
+eslint
+git lens
+import cost
+intellisense for css class names
+log file highlighter
+material icon theme
+material theme kit
+npm
+npm intellisense
+one dark pro
+path intellisense
+prettier - javascript formatter
+reactjs code snippets
+sass
+scss intellisense
+stylfmt
+stylelint
+svg
+svg viewer
+theme - oceanic next
+todo highlight
+vetur
+vscode greate icons
+vscode-icons
